@@ -7,9 +7,21 @@
     <style>
       p {
         background-color: rgb(132, 95, 167);
+        width: 50%;
       }
       ul li {
         color: blue;
+      }
+
+      #name {
+        text-align: center;
+      }
+      #Internal {
+        font-size: large;
+        font-weight: 600;
+      }
+      .Learning {
+        text-align: right;
       }
     </style>
   </head>
@@ -17,15 +29,18 @@
     <h3 style="color: red">Learning Basic CSS</h3>
     <h4 style="background-color: aqua">Inline CSS</h4>
     <p>CSS Means = Cascading Style Sheet</p>
-    <p>My Name is Rabby</p>
+    <p id="name">My Name is Rabby</p>
     <p>I am Learning CSS</p>
-    <p>I am Serious About Learning CSS</p>
-    <p>I am Dedicated Person</p>
+    <p class="Learning">I am Serious About Learning CSS</p>
+    <p class="Learning">I am Dedicated Person</p>
 
     <ul>
       <li>Inline CSS</li>
-      <li>Internal CSS</li>
+      <li id="Internal">Internal CSS</li>
       <li>External CSS</li>
     </ul>
+
+    <p class="Learning">Lorem ipsum dolor sit amet.</p>
+    <p class="Learning">Lorem ipsum dolor sit amet.</p>
   </body>
 </html>
